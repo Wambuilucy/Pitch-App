@@ -2,7 +2,7 @@ import os
 class Config:
     debug = True
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:alice1234@localhost/alice'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:lucy1234@localhost/lucy'
     #  email configurations
     
     
@@ -27,14 +27,14 @@ class TestConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:alice1234@localhost/alice'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:lucy1234@localhost/lucy'
 class DevConfig(Config):
     '''
     Development  configuration child class
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:alice1234@localhost/alice'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:lucy1234@localhost/lucy'
     
     DEBUG = True
     ENV = 'development'

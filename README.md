@@ -29,7 +29,7 @@ To run the test for class in your terminal
 $ python3.6 manage.py test
 
 Live link to website
-https://alicepitch.herokuapp.com/
+https://wambuilucy.herokuapp.com/
 
 contacts
 for enquries or comments
