@@ -5,7 +5,6 @@ class Config:
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:lucy123@localhost/lucy2'
     #  email configurations
     
-    
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 465
     MAIL_USE_TLS = False
