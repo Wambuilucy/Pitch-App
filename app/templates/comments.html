@@ -1,10 +1,10 @@
-
- 
-{% include 'navbar.html'%}
-
 {% import 'bootstrap/wtf.html' as wtf %}
 {% extends 'bootstrap/base.html' %}
 {% import 'macros.html' as macro %}
+ 
+{% block navbar %}
+        {% include 'navbar.html'%}
+{% endblock %}
 
 {% block content %}
 
