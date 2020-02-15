@@ -17,6 +17,7 @@ bootstrap = Bootstrap()
 db = SQLAlchemy()
 simple = SimpleMDE()
 
+
 #def create_app(config_name):
    # '''
    # Function that takes configuration setting key as an argument
