@@ -5,7 +5,7 @@ from ..models import Pitch, User,Comment,Upvote,Downvote
 from .forms import PitchForm, CommentForm, UpvoteForm
 from flask.views import View,MethodView
 from .. import db
-import markdown2
+# import markdown2
 
 
 # Views
