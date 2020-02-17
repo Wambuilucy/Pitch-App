@@ -8,6 +8,7 @@ from flask_mail import Mail
 
 
 
+
 # Instances of flask extensions
 # Instance of LoginManger and using its methods
 login_manager = LoginManager()
