@@ -27,8 +27,9 @@ Flask-Bootstrap==3.3.7.1
 Flask-Login==0.5.0
 Flask-Mail==0.9.1
 Flask-Migrate==2.5.2
-Flask-SQLAlchemy==2.4.1
 Flask-Script==2.0.6
+Flask-SimpleMDE==0.3.0
+Flask-SQLAlchemy==2.4.1
 Flask-WTF==0.14.3
 git+git://github.com/maxcountryman/flask-uploads@f66d7dc93e684fa0a3a4350a38e41ae00483a796
 gunicorn==19.10.0
