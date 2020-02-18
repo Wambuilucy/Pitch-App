@@ -34,7 +34,7 @@ def create_app(config_name):
     #simple.init_app(app)
 
     # Creating the app configurations
-    app.config.from_object(config_options["development"])
+    app.config.from_object(config_options[config_name])
 
 
     # Initialising flask extensions
